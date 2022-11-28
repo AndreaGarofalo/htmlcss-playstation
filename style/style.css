@@ -1,24 +1,28 @@
 body * {
-    border: 1px dashed red;
+  border: 1px dashed red;
 }
 
 .brand {
-   height: 40px; 
+  height: 40px;
 }
 
 nav {
-    height: 60px;
+  height: 60px;
 }
 
 .jumbotron {
-    height: 600px;
-    background-image: url();
+  height: 600px;
+  background-image: url();
 }
 
 #coming-soon {
-    height: 600px;
+  height: 600px;
 }
 
 .buy-now {
-    height: 500px;
+  height: 500px;
+}
+
+#ps-plus {
+  height: 300px;
 }
