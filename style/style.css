@@ -1,13 +1,25 @@
-body * {
-  border: 1px dashed red;
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.fa-magnifying-glass {
+  line-height: 40px;
+}
+.sony-logo {
+  height: 10px;
 }
 
 .brand {
-  height: 40px;
+  height: 30px;
 }
 
-nav {
-  height: 60px;
+header li {
+  padding: 0 5px;
 }
 
 .jumbotron {
