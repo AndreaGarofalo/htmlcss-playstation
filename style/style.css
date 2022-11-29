@@ -1,6 +1,7 @@
 header {
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .sony-logo {
@@ -29,21 +30,23 @@ main {
 
 .jumbotron {
   height: 600px;
-  background-image: url(../img/jumbo-bg.png);
   background-position: top center;
   background-size: cover;
 }
 
-#coming-soon {
-  height: 600px;
+#main-jumbotron.jumbotron {
+  background-image: url(../img/jumbo-bg.png);
+}
+#coming-up.jumbotron {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.blue-bottom {
+  height: 2px;
 }
 
 #coming-soon .rounded {
   border-radius: 25px !important;
-}
-
-.buy-now {
-  height: 500px;
 }
 
 #ps-plus {
