@@ -3,15 +3,16 @@ header {
   width: 100%;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.sony-logo {
+  height: 10px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
   color: black;
 }
 
 .fa-magnifying-glass {
   line-height: 40px;
-}
-.sony-logo {
-  height: 10px;
 }
 
 .brand {
@@ -22,13 +23,23 @@ header li {
   padding: 0 5px;
 }
 
+main {
+  padding-top: 106px;
+}
+
 .jumbotron {
   height: 600px;
-  background-image: url();
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top center;
+  background-size: cover;
 }
 
 #coming-soon {
   height: 600px;
+}
+
+#coming-soon .rounded {
+  border-radius: 25px !important;
 }
 
 .buy-now {
