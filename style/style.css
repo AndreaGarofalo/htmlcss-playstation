@@ -58,7 +58,7 @@ main {
   border-radius: 25px !important;
 }
 
-.bg-gray-dark {
+#ps-plus {
   background-color: #bebcbb;
 }
 
@@ -67,5 +67,13 @@ main {
 }
 
 #ps-plus .logo-psplus {
+  max-width: 70%;
+}
+
+#ps-now {
+  background-color: #161c3b;
+}
+
+#ps-now .logo-psnow {
   max-width: 70%;
 }
