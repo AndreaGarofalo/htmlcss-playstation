@@ -28,18 +28,21 @@ main {
   padding-top: 106px;
 }
 
-.jumbotron {
+#main-jumbotron.jumbotron {
+  background-image: url(../img/jumbo-bg.png);
+  height: 600px;
   background-position: top center;
   background-size: cover;
 }
 
-#main-jumbotron.jumbotron {
-  background-image: url(../img/jumbo-bg.png);
-  height: 600px;
-}
-
-#coming-up.jumbotron {
+#coming-up .it-takes-two {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  height: 600px;
+  background-position: top center;
+  background-size: cover;
+}
+#coming-up .coming-next {
+  height: auto;
 }
 
 .blue-bottom {
@@ -55,6 +58,14 @@ main {
   border-radius: 25px !important;
 }
 
-#ps-plus {
-  height: 300px;
+.bg-gray-dark {
+  background-color: #bebcbb;
+}
+
+.bg-gray {
+  background-color: #d9dadc;
+}
+
+#ps-plus .logo-psplus {
+  max-width: 70%;
 }
