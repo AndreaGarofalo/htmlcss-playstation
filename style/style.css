@@ -77,3 +77,11 @@ main {
 #ps-now .logo-psnow {
   max-width: 70%;
 }
+
+footer {
+  background-color: #00439c;
+}
+
+.sie-logo {
+  width: 150px;
+}
