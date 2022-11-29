@@ -29,14 +29,15 @@ main {
 }
 
 .jumbotron {
-  height: 600px;
   background-position: top center;
   background-size: cover;
 }
 
 #main-jumbotron.jumbotron {
   background-image: url(../img/jumbo-bg.png);
+  height: 600px;
 }
+
 #coming-up.jumbotron {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
@@ -46,6 +47,11 @@ main {
 }
 
 #coming-soon .rounded {
+  border-radius: 25px !important;
+}
+
+#coming-soon .card-img,
+.card-img-top {
   border-radius: 25px !important;
 }
 
