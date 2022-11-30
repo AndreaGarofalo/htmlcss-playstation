@@ -42,7 +42,7 @@ nav .btn:hover {
   height: 10px;
 }
 
-header .navbar-light .navbar-nav .nav-link {
+header .navbar-light .navbar-nav .nav-link:hover {
   color: black;
 }
 
