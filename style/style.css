@@ -79,6 +79,14 @@ main {
   height: auto;
 }
 
+#your-ps5 .card .active {
+  display: none;
+}
+
+#your-ps5 .card:hover .active {
+  display: block;
+}
+
 .blue-bottom {
   height: 2px;
 }
